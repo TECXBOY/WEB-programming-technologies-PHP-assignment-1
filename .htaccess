@@ -1,0 +1,4 @@
+# Keeps the SQLite file from being downloaded directly.
+<FilesMatch "\.sqlite$">
+    Require all denied
+</FilesMatch>
